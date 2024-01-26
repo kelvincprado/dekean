@@ -1,0 +1,34 @@
+<?dekean
+
+numero y, a, b, c, z&
+texto t1&
+logico entrou&
+
+
+t1 := "Seu codigo terminou"&
+escreva("Ola")&
+leia(a)&
+leia(b)&
+leia(z)&
+%aqui e um comentario%
+y := 7&
+a := 1 + 2 * 3 / b&
+entrou := Falso&
+logico achou&
+se (a < b) [
+	escreva(a)&
+]senao[
+	escreva("b maior que a")&
+]
+achou := Falso&
+faca[
+	escreva("Loop")&
+	c := c + 1 / 0&
+]enquanto(c <= 5)&
+
+enquanto(z > 0)[
+	escreva("Z maior que 0")&
+	z := z - 1&
+]
+
+?>
